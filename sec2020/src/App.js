@@ -5,6 +5,7 @@ import Login from './components/Login.js';
 import Landing from './components/Landing.js';
 import Register from './components/Register.js';
 import Main from './components/Main.js';
+import Profile from './components/Profile.js';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
         <Route path="/main" component={Main} />
+        <Route path="/profile" component={Profile} />
       </Switch>
     </main>
   );

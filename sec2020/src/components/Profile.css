@@ -1,0 +1,111 @@
+.Profile-userHeader {
+    position: absolute;
+    width: 740px;
+    height: 93px;
+    left: 67px;
+    top: 196px;
+
+    /* Background */
+
+    background: #121212;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    
+    /* On Surface / High Emphasis */
+    
+    color: rgba(255, 255, 255, 0.87);
+}
+.addFriendButton {
+    margin-top: 50px;
+}
+
+.Profile-pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.Profile-subheader1 {
+    position: absolute;
+    width: 651px;
+    height: 46px;
+    left: 78px;
+    top: 301px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+
+    /* Secondary/600 */
+
+    color: #019592;
+}
+
+.Profile-body1{
+    position: absolute;
+    width: 708px;
+    height: 339px;
+    left: 79px;
+    top: 349px;
+    
+    /* On Primary / Medium Emphasis */
+    
+    background: rgba(0, 0, 0, 0.74);
+}
+
+.Profile-subheader2 {
+    position: absolute;
+    width: 651px;
+    height: 46px;
+    left: 78px;
+    top: 698px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    
+    /* Secondary/600 */
+    
+    color: #019592;
+}
+
+.Profile-body2{
+    position: absolute;
+    width: 708px;
+    height: 242px;
+    left: 81px;
+    top: 752px;
+    
+    /* On Primary / Medium Emphasis */
+    
+    background: rgba(0, 0, 0, 0.74);    
+}
+
+.Profile-friendHeader {
+    position: absolute;
+    width: 740px;
+    height: 80px;
+    left: 1020px;
+    top: 196px;
+    
+    /* On Primary / High Emphasis */
+    
+    background: #000000;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+
+}

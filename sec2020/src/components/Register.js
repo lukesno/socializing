@@ -51,38 +51,44 @@ const Register = () => {
         Hello you are in Register!
         <div>
           <label>
-            Email:
+            <a>Email: </a>
             <input type="text" value={email} onChange={event => setEmail(event.target.value)} />
           </label>
         </div>
         <div>
           <label>
-            Password:
-            <input type="text" value={password} onChange={event => setPassword(event.target.value)}/>
+            <a>Password: </a>
+            <input type="password" value={password} onChange={event => setPassword(event.target.value)}/>
           </label>
         </div>
         <div>
           <label>
-            Name:
+          <a>Name: </a>
             <input type="text"  value={name} onChange={event => setName(event.target.value)}/>
           </label>
         </div>
         <div>
           <label>
-            Bio:
+            <a>Bio: </a>
             <input type="textarea" value={bio} onChange={event => setBio(event.target.value)} />
           </label>
         </div>
         <div>
           <label>
-            Location:
+          <a>Location: </a>
             <input type="text" value={location} onChange={event => setLocation(event.target.value)} />
           </label>
         </div>
         <div>
           <label>
-            Interests (separate with space):
+            <a>Interests (separate with space): </a>
             <input type="text" value={interest} onChange={event => setInterest(event.target.value)}/>
+          </label>
+        </div>
+        <div>
+          <label>
+            <a>Profile picture (provide as link): </a>
+            <input type="text" value={profile_pic} onChange={event => setProfile_pic(event.target.value)}/>
           </label>
         </div>
 

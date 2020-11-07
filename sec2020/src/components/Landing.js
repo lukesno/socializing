@@ -11,7 +11,7 @@ const Landing = () => {
             <h1 className={'Landing-header'}>Engineering Social</h1>
             <div>
                 <button className={'Landing-button-1'} onClick={() => window.location.href = "http://localhost:3000/login"}>
-                    <div className={'Landing-div'}>Login</div>
+                    <div className={'1,Landing-div'}>Login</div>
                 </button>
             </div>
             <div>
