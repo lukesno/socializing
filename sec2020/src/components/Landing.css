@@ -1,0 +1,86 @@
+body {
+  background-color: #121212;
+  color: rgba(255, 255, 255, 0.87)
+}
+
+.Landing-header {
+  position: absolute;
+  width: 998px;
+  height: 138px;
+  left: 146px;
+  top: 132px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 117px;
+
+  color: rgba(255, 255, 255, 0.87)
+}
+
+.Landing-div {
+  text-align: center; margin: auto;
+}
+
+.Landing-button-1 {
+  position: absolute;
+  width: 667px;
+  height: 181px;
+  left: 985px;
+  top: 746px;
+
+  background: #00C4B4;
+  border-radius: 6px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+
+  color:  #121212;
+}
+
+.Landing-button-2 {
+  position: absolute;
+  width: 667px;
+  height: 181px;
+  left: 211px;
+  top: 746px;
+
+  background: #121212;
+  /* Secondary/300 */
+  
+  border: 1px solid #00C4B4;
+  box-sizing: border-box;
+  border-radius: 6px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+
+  /* Secondary/300 */
+
+  color: #00C4B4;
+
+}
+
+@keyframes Landing-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
