@@ -1,6 +1,6 @@
 # Schulich-Engineering-Competition 2020
 
-* Junior Programming Division Winners
+* * Junior Programming Division Winners
 
 Team Members:\
 Hiten Mahalwar\
